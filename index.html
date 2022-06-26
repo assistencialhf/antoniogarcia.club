@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YYZZKL5LDC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YYZZKL5LDC');
+</script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -10,110 +21,143 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./assets/css/com.css">
+    <link rel="stylesheet" href="./assets/css/estilo.css">
 
     <!-- Título da Página -->
-    <title>Anto Garcia - Libre de la Diabetes</title>
+    <title>Marta Souza</title>
     
-    <style type="text/css">
+<style type="text/css">
       header {
         color: white;
-        background-image: url("assets/img/bg.jpeg");
-        background-color: rgba(0, 0, 0, 0.6);
+        background-image: url("assets/img/bg.png");
+        background-color: rgba(0, 0, 0, 0.0);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
         background-blend-mode: darken;
       }
+
+
+    <style type="text/css">
+      header {
+        color: white;
+        background-image: linear-gradient(180deg, #00000061 0%, #000000 100%);
+        background-color: rgb(28 29 49);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+      }
+      .body1 {
+        color: white;
+        background-image: linear-gradient(180deg, #00000061 0%, #000000 100%);
+        background-color: rgb(28 29 49);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+      }
+      @keyframes pulse {
+  0% {    transform: scaleX(1)  }
+  50% {    transform: scale3d(1.05, 1.05, 1.05)  }
+  to {    transform: scaleX(1)  }
+}
+#cta1{animation:pulse 1s infinite;}
+#cta2{animation:pulse 1s infinite;}
     </style>
-      
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1036305503647845');
-fbq('init', '989104058658845');
-fbq('track', 'PageView');
-fbq('track', 'ViewContent');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1036305503647845&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
     
+    
+    <script src="https://kit.fontawesome.com/93e9f33ab4.js" crossorigin="anonymous"></script>
+
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '7542038579170957')
+  fbq('init', '1128544727993167')
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent');
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "c1fs5cedyx");
+</script>
+
   </head>
   <body>
-    
-<p style="text-align: center;">Usted y algunas personas cercanas <b><span id="address" style="color: #FF6000;">Cidade</span> </b>fueron seleccionados para participar en este programa.
-<!--INÍCIO DO SCRIPT--></p>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<script>$.get("https://ipinfo.io/json", function (response) { $("#address").html(response.city);
-}, "jsonp");
-</script>
+    <!-- Local -->
 
-<!--FIM DO SCRIPT-->
+    <div style="background-color: #000000; height: 50px; color: #ffffff; align-items: center; display: flex; justify-content: center;">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script>$.get("https://ipinfo.io/json", function (response) {
+$("#ip").html("IP: " + response.ip);
+$("#address").html(response.city + ", em " + response.region);
+$("#details").html(JSON.stringify(response, null, 4));
+}, "jsonp");</script>
+
+<center>¡Sólo Tú y algunas mujeres <b style="color:#67B2B8"><span id="address"></span></b> fueron seleccionadas para participar de este programa!</center>
+    </div>
+
+    <!-- Header -->
 
     <header class="py-4">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
-            <!-- Imagem Ultrasecreto -->
-            <img class="img-fluid" src="./assets/img/ultrasecreto.svg">
-
+           
             <!-- Headline -->
-            <h3 class="my-4"><b>ADVERTENCIA: Las verduras verdes causan diabetes tipo 2 en millones</b></h3>
-
+            <h3 class="my-4"><p style="overflow-wrap: break-word; font-family: Montserrat, sans-serif; font-size: 28px; font-weight: 400;">Un Descubrimiento Revolucionario Revela</p>
+<p style="overflow-wrap: break-word; font-family: Montserrat, sans-serif; font-size: 28px; font-weight: 400;"><strong><span style="background-color: #2F485C; text-decoration-line:; color: #FFFFFF;">CÓMO DERRETIR 61 LIBRAS DE GRASA DURANTE LA NOCHE</span></strong><p style="overflow-wrap: break-word; font-family: Montserrat, sans-serif; font-size: 28px; font-weight: 400;"></p> </h3>
+<i class="fas fa-volume-up" aria-hidden="true"></i> <span class="">¡Asegúrate de que tu sonido esté encendido!</span>
             <!-- VSL -->
-            <script type="text/javascript" id="scr_6251c05de1937100084c1540">var s=document.createElement("script");s.src="https://cdn.converteai.net/42cddd78-c9e6-40d6-a616-0d25181e5a74/players/6251c05de1937100084c1540/player.js",s.async=!0,document.head.appendChild(s);</script>
-
-            <span id="number"></span> personas están viendo este video ahora mismo...
-
-<script>
-function add(){number+=Math.floor((Math.random()*6)+1);document.getElementById("number").innerHTML=number;setTimeout("add()",10000);}        
-function generate(){number=Math.floor(Math.random()*1143)+1578;document.getElementById("number").innerHTML=number;add();}
-generate();</script>
+            <div id="vid_62b7b9db1a20c3000d04ff49" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_62b7b9db1a20c3000d04ff49" src="https://images.converteai.net/7a919ce9-b6c1-475b-8149-5dfed047d8f4/players/62b7b9db1a20c3000d04ff49/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_62b7b9db1a20c3000d04ff49" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_62b7b9db1a20c3000d04ff49">var s=document.createElement("script");s.src="https://scripts.converteai.net/7a919ce9-b6c1-475b-8149-5dfed047d8f4/players/62b7b9db1a20c3000d04ff49/player.js",s.async=!0,document.head.appendChild(s);</script>
+            
 
             <!-- Botão 1 -->
             <div id="cta1" class="mt-4 d-none">
-              <a href="https://pay.hotmart.com/R69590081I?checkoutMode=10&bid=1650037691897" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">¡QUIERO ACCEDER AL PROGRAMA AHORA!</span>
-                <span class="span-btn2">(Atención: plazas limitadas)</span>
+              <a href="https://pay.hotmart.com/A72005486S?checkoutMode=10&bid=1655767676040" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">¡QUIERO ACCEDER AL PROGRAMA YA!</span>
+                <!--<span class="span-btn2">(atenção: disponivel por tempo limitado)</span>-->
               </a>
             </div>
           </div>
         </div>
       </div>
     </header>
-
+<div class="body1">
+    
     <section class="comments py-4">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="fb-comments" style="margin-top: 5px;">
               <div class="fb-comments-header">
-                <span>21 comentarios</span>
+                <span>Mostrando 23 de 3875 comentarios</span>
               </div>
               <div class="fb-comments-wrapper" id="2">
                 <table class="fb-comments-comment">
                   <tbody>
                     <tr>
                       <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m1.jpeg"></td>
+                          src="./assets/img/fotos/ft14.jpg"></td>
                       <td>
                         <font class="fb-comments-comment-name">
-                          <name>Vanusa Sulivan</name>
+                          <name>Adriana Arryave</name>
                         </font>
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text">¡Simplemente asombroso! Logré bajar mi nivel de azúcar en la sangre en solo 2 semanas. Dios te bendiga.😘</td>
+                      <td class="fb-comments-comment-text">¡Estoy tan feliz! gracias Davi... Ayer me di cuenta de lo mucho que estoy adelgazando, estoy feliz. Estoy viendo los resultados de una manera muy eficiente.... 😍<p></td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -134,15 +178,15 @@ generate();</script>
                   <tbody>
                     <tr>
                       <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m3.jpeg"></td>
+                          src="./assets/img/fotos/ft11.jpg"></td>
                       <td>
                         <font class="fb-comments-comment-name">
-                          <name>Rubia Vaz</name>
+                          <name>Juliana Montarroyos</name>
                         </font>
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text">Tambien me ayudo a bajar 22kg gracias,este programa es maravilloso.🥰🥰</td>
+                      <td class="fb-comments-comment-text">Empecé el plan el 17/05 con 86.7lbs y hoy 20/05 peso 83.3lbs, mido 1.61cm, imagínate el 28 estoy enamorada...😍</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -163,15 +207,15 @@ generate();</script>
                   <tbody>
                     <tr>
                       <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/h6.jpeg"></td>
+                          src="./assets/img/fotos/ft17.jpg"></td>
                       <td>
                         <font class="fb-comments-comment-name">
-                          <name>Antonio Martins</name>
+                          <name>Elizeni Gonçalves</name>
                         </font>
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text">Este video mio cambio mi vida, bajé 20kg en 4 meses, agradecido.</td>
+                      <td class="fb-comments-comment-text">Empecé el plan con 89 libras y 1:60 de altura. Obesidad nivel 2!. Hoy al final del primer mes peso 75 libras. Gracias David por ayudarnos!!!💛</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -192,15 +236,15 @@ generate();</script>
                   <tbody>
                     <tr>
                       <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/rosto11.png"></td>
+                          src="./assets/img/fotos/ft15.jpg"></td>
                       <td>
                         <font class="fb-comments-comment-name">
-                          <name>Marta Castro</name>
+                          <name>Rosalyn Leon</name>
                         </font>
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text">Quedé sorprendida y extremadamente feliz con el resultado, tomé medicamentos durante muchos años y ahora estoy libre de diabetes después del programa🤩🤩.</td>
+                      <td class="fb-comments-comment-text">Cada vez que cambio mi dieta me siento débil Me siento débil... ¿Me funcionará el plan de Fábio? ¿Alguien ya<span id="cidade2"></span> lo ha comprado?</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -221,15 +265,15 @@ generate();</script>
                   <tbody>
                     <tr>
                       <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m6.jpeg"></td>
+                          src="./assets/img/fotos/ft8.jpg"></td>
                       <td>
                         <font class="fb-comments-comment-name">
-                          <name>Laura Lopes</name>
+                          <name>Juliana Rodrigues</name>
                         </font>
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text">La diabetes ha estado en mi familia por generaciones, pero poder revertirla es maravilloso, ahora le toca a mi padre🙏😘😘😘</td>
+                      <td class="fb-comments-comment-text">No sabes lo que te pierdes...</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -250,15 +294,15 @@ generate();</script>
                   <tbody>
                     <tr>
                       <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m7.jpeg"></td>
+                          src="./assets/img/fotos/ft4.jpg"></td>
                       <td>
                         <font class="fb-comments-comment-name">
-                          <name>Roberta Gomes</name>
+                          <name>Amanda García</name>
                         </font>
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text">Realmente funciona, mi nivel de azúcar ha estado bajando todos los días. Gracias por compartir, Dios te bendiga🙏.🥰</td>
+                      <td class="fb-comments-comment-text">Buenos días David, mi vida está cambiando a mejor, bajé 2 kilos en 4 días, sin mucho esfuerzo, ¡Gracias!</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -279,16 +323,16 @@ generate();</script>
                   <tbody>
                     <tr>
                       <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m11.jpeg">
+                          src="./assets/img/fotos/ft3.jpg">
                       </td>
                       <td>
                         <font class="fb-comments-comment-name">
-                          <name>Rafaella Gonzales</name>
+                          <name>Sabrina Diaz</name>
                         </font>
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text">Receta realmente comprobada, perdí peso, controlé mi azúcar y tengo mucha más energía😍😍😍</td>
+                      <td class="fb-comments-comment-text">¡Funciona como el infierno! Mi marido y yo empezamos a aplicarlo la semana pasada y en unos días ya habíamos bajado 8 libras, 5 para ella y 3 para mí y es muy fácil verdad Gente. ¡David hizo algo que valía oro!</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -304,23 +348,23 @@ generate();</script>
                   </tbody>
                 </table>
               </div>
-              <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais 5 comentários</button>
+              <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Cargar 5 comentarios más</button>
               <div style="display:none" id="more">
                 <div class="fb-comments-wrapper">
                   <table class="fb-comments-comment" id="10">
                     <tbody>
                       <tr>
                         <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m12.jpeg">
+                            src="./assets/img/fotos/ft2.jpg">
                         </td>
                         <td>
                           <font class="fb-comments-comment-name">
-                            <name>Anita Suarez</name>
+                            <name>Railane Martin</name>
                           </font>
                         </td>
                       </tr>
                       <tr>
-                        <td class="fb-comments-comment-text">Muy bien, comencé hace 7 días y ya me siento una persona diferente, ya bajé 3 kg, estoy muy emocionada. Gracias. 😍😍😍</td>
+                        <td class="fb-comments-comment-text">Sensacional.</td>
                       </tr>
                       <tr>
                         <td class="fb-comments-comment-actions">
@@ -341,16 +385,16 @@ generate();</script>
                     <tbody>
                       <tr>
                         <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m15.jpeg">
+                            src="./assets/img/fotos/ft6.jpg">
                         </td>
                         <td>
                           <font class="fb-comments-comment-name">
-                            <name>Laura Flores</name>
+                            <name>Taynah Vasquez</name>
                           </font>
                         </td>
                       </tr>
                       <tr>
-                        <td class="fb-comments-comment-text">Muy bien, comencé hace 7 días y ya me siento una persona diferente, ya bajé 3 kg, estoy muy emocionada y muy feliz. Gracias 🙏🙏🙏🙏🙏🙏</td>
+                        <td class="fb-comments-comment-text">Voy a empezar a usar hoy 😍🔥💣</td>
                       </tr>
                       <tr>
                         <td class="fb-comments-comment-actions">
@@ -371,16 +415,16 @@ generate();</script>
                     <tbody>
                       <tr>
                         <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m16.jpeg">
+                            src="./assets/img/fotos/ft13.jpg">
                         </td>
                         <td>
                           <font class="fb-comments-comment-name">
-                            <name>Izabel Costa</name>
+                            <name>Maria Fernanda de Lima</name>
                           </font>
                         </td>
                       </tr>
                       <tr>
-                        <td class="fb-comments-comment-text">Ya lo estoy siguiendo mucha diferencia, duermo mejor por la noche, bajé mi nivel de azúcar a 97 en 3 semanas, perdí 13 kg y me siento renovada. Realmente funciona.🙏🙏🙏🙏🙏🙏..🌹🥰🙋</td>
+                        <td class="fb-comments-comment-text">Hice todo lo que enseña desde el desayuno hasta la cena, todo tal como está en el plan Y funciona MUCHO...</td>
                       </tr>
                       <tr>
                         <td class="fb-comments-comment-actions">
@@ -401,15 +445,15 @@ generate();</script>
                     <tbody>
                       <tr>
                         <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m17.jpeg"></td>
+                            src="./assets/img/fotos/ft16.jpg"></td>
                         <td>
                           <font class="fb-comments-comment-name">
-                            <name>Juliana Diaz</name>
+                            <name>Paola Sánchez</name>
                           </font>
                         </td>
                       </tr>
                       <tr>
-                        <td class="fb-comments-comment-text">Muchas gracias me ha ayudado mucho, me ha encantado... duermo muy bien y viendo resultados..🌹 🙋</td>
+                        <td class="fb-comments-comment-text">Chicos, siempre he tenido sobrepeso, desde que era un niño... después de que descubrí este plan secreto desarrollado en la investigación europea, llegué a perder peso, casi de milagro... hoy todavía no lo he asimilado, parece que estoy viviendo un sueño, ¡literalmente! Aprendí mucho de ti y estoy muy agradecido por eso hermano, espero que muchas personas todavía tengan la oportunidad de participar en este programa también porque cambió mi vida y cambiará mucho a gnt también... muy bueno ! Sin palabras.</td>
                       </tr>
                       <tr>
                         <td class="fb-comments-comment-actions">
@@ -430,16 +474,16 @@ generate();</script>
                     <tbody>
                       <tr>
                         <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m18.jpeg">
+                            src="./assets/img/fotos/ft1.jpg">
                         </td>
                         <td>
                           <font class="fb-comments-comment-name">
-                            <name>Antonia Correia</name>
+                            <name>Márcia Mendes</name>
                           </font>
                         </td>
                       </tr>
                       <tr>
-                        <td class="fb-comments-comment-text">En dos semanas comencé a ver resultados, muy buenos</td>
+                        <td class="fb-comments-comment-text">Gracias David por la oportunidad!!!
                       </tr>
                       <tr>
                         <td class="fb-comments-comment-actions">
@@ -457,29 +501,39 @@ generate();</script>
                 </div>
               </div>
             </div>
-            <!-- Botão 2 -->
+            <!-- Botão 2 --><div class="text-center">
             <div id="cta2" class="mt-4 d-none">
-              <a href="https://pay.hotmart.com/R69590081I?checkoutMode=10&bid=1650037691897" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">¡QUIERO ACCEDER AL PROGRAMA AHORA!</span>
-                <span class="span-btn2">(Atención: plazas limitadas)</span>
+              <a href="https://pay.hotmart.com/A72005486S?checkoutMode=10&bid=1655767676040" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">¡QUIERO ACCEDER AL PROGRAMA YA!</span>
+                <!--<span class="span-btn2">(atenção: disponivel por tempo limitado)</span>-->
               </a>
             </div>
-          </div>
+        </div>
         </div>
       </div>
-    </section>
+    </section></div>
 
     <footer class="bg-dark py-3 text-center">
-      <div class="text-white"><a href="termos.html" class="text-white">Terminos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidad</a></div>
+      <center><div style="width: 50%; color: #ffffff;">
+      <span class="">
+        <b class="">Este sitio web no está afiliado a Facebook ni a ninguna entidad de Facebook.</b></span><br>
+      <span class="">Una vez que dejas Facebook, no es tu responsabilidad, es responsabilidad de nuestro sitio web. Hacemos todo lo posible para indicar y mostrar claramente todas las pruebas de productos y utilizar resultados reales.</span>
+    </div></center>
+      <div class="text-white"><a href="termos.html" class="text-white">Terminos de uso</a> | <a href="privacidade.html" class="text-white">Política de privacidad</a></div>
     </footer>
 
     <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 2787000); // temporização da Call to Action (em milissegundos)
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 612000); // temporização da Call to Action (em milissegundos)
     </script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="./assets/js/com.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notiflix@2.6.0/dist/notiflix-aio-2.6.0.min.js"></script>
+    <script type="text/javascript">
+        setTimeout(show_notification, 0);
+    </script>
+
   </body>
 </html>
